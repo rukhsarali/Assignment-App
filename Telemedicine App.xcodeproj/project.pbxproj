@@ -13,10 +13,11 @@
 		903DEF4424EA571100BAC0E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903DEF4224EA571100BAC0E5 /* Main.storyboard */; };
 		903DEF4624EA571600BAC0E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 903DEF4524EA571600BAC0E5 /* Assets.xcassets */; };
 		903DEF4924EA571600BAC0E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 903DEF4724EA571600BAC0E5 /* LaunchScreen.storyboard */; };
+		903DEF5124EA782400BAC0E5 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 903DEF5024EA782400BAC0E5 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		903DEF3924EA571100BAC0E5 /* sideMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sideMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		903DEF3924EA571100BAC0E5 /* Telemedicine App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Telemedicine App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		903DEF3C24EA571100BAC0E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		903DEF3E24EA571100BAC0E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		903DEF4024EA571100BAC0E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +25,7 @@
 		903DEF4524EA571600BAC0E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		903DEF4824EA571600BAC0E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		903DEF4A24EA571600BAC0E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		903DEF5024EA782400BAC0E5 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +42,7 @@
 		903DEF3024EA571100BAC0E5 = {
 			isa = PBXGroup;
 			children = (
-				903DEF3B24EA571100BAC0E5 /* sideMenuBar */,
+				903DEF3B24EA571100BAC0E5 /* Telemedicine App */,
 				903DEF3A24EA571100BAC0E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +50,56 @@
 		903DEF3A24EA571100BAC0E5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				903DEF3924EA571100BAC0E5 /* sideMenuBar.app */,
+				903DEF3924EA571100BAC0E5 /* Telemedicine App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		903DEF3B24EA571100BAC0E5 /* sideMenuBar */ = {
+		903DEF3B24EA571100BAC0E5 /* Telemedicine App */ = {
 			isa = PBXGroup;
 			children = (
 				903DEF3C24EA571100BAC0E5 /* AppDelegate.swift */,
 				903DEF3E24EA571100BAC0E5 /* SceneDelegate.swift */,
-				903DEF4024EA571100BAC0E5 /* ViewController.swift */,
-				903DEF4224EA571100BAC0E5 /* Main.storyboard */,
+				903DEF5324EAA45F00BAC0E5 /* Controller */,
+				903DEF5224EAA45000BAC0E5 /* View */,
+				903DEF5424EAA46C00BAC0E5 /* Model */,
 				903DEF4524EA571600BAC0E5 /* Assets.xcassets */,
 				903DEF4724EA571600BAC0E5 /* LaunchScreen.storyboard */,
 				903DEF4A24EA571600BAC0E5 /* Info.plist */,
 			);
-			path = sideMenuBar;
+			path = "Telemedicine App";
+			sourceTree = "<group>";
+		};
+		903DEF5224EAA45000BAC0E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				903DEF4224EA571100BAC0E5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		903DEF5324EAA45F00BAC0E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				903DEF4024EA571100BAC0E5 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		903DEF5424EAA46C00BAC0E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				903DEF5024EA782400BAC0E5 /* TableViewCell.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		903DEF3824EA571100BAC0E5 /* sideMenuBar */ = {
+		903DEF3824EA571100BAC0E5 /* Telemedicine App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 903DEF4D24EA571600BAC0E5 /* Build configuration list for PBXNativeTarget "sideMenuBar" */;
+			buildConfigurationList = 903DEF4D24EA571600BAC0E5 /* Build configuration list for PBXNativeTarget "Telemedicine App" */;
 			buildPhases = (
 				903DEF3524EA571100BAC0E5 /* Sources */,
 				903DEF3624EA571100BAC0E5 /* Frameworks */,
@@ -82,9 +109,9 @@
 			);
 			dependencies = (
 			);
-			name = sideMenuBar;
+			name = "Telemedicine App";
 			productName = sideMenuBar;
-			productReference = 903DEF3924EA571100BAC0E5 /* sideMenuBar.app */;
+			productReference = 903DEF3924EA571100BAC0E5 /* Telemedicine App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +129,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 903DEF3424EA571100BAC0E5 /* Build configuration list for PBXProject "sideMenuBar" */;
+			buildConfigurationList = 903DEF3424EA571100BAC0E5 /* Build configuration list for PBXProject "Telemedicine App" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +142,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				903DEF3824EA571100BAC0E5 /* sideMenuBar */,
+				903DEF3824EA571100BAC0E5 /* Telemedicine App */,
 			);
 		};
 /* End PBXProject section */
@@ -139,6 +166,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				903DEF4124EA571100BAC0E5 /* ViewController.swift in Sources */,
+				903DEF5124EA782400BAC0E5 /* TableViewCell.swift in Sources */,
 				903DEF3D24EA571100BAC0E5 /* AppDelegate.swift in Sources */,
 				903DEF3F24EA571100BAC0E5 /* SceneDelegate.swift in Sources */,
 			);
@@ -285,7 +313,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sideMenuBar/Info.plist;
+				INFOPLIST_FILE = "Telemedicine App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +330,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = sideMenuBar/Info.plist;
+				INFOPLIST_FILE = "Telemedicine App/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -317,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		903DEF3424EA571100BAC0E5 /* Build configuration list for PBXProject "sideMenuBar" */ = {
+		903DEF3424EA571100BAC0E5 /* Build configuration list for PBXProject "Telemedicine App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				903DEF4B24EA571600BAC0E5 /* Debug */,
@@ -326,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		903DEF4D24EA571600BAC0E5 /* Build configuration list for PBXNativeTarget "sideMenuBar" */ = {
+		903DEF4D24EA571600BAC0E5 /* Build configuration list for PBXNativeTarget "Telemedicine App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				903DEF4E24EA571600BAC0E5 /* Debug */,

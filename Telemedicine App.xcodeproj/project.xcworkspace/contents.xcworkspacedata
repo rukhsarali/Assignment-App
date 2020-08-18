@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:sideMenuBar.xcodeproj">
+      location = "self:/Users/ruksar/Desktop/sideMenuBar/Telemedicine App.xcodeproj">
    </FileRef>
 </Workspace>
