@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSource {
    
+   
     
     
     @IBOutlet weak var homeProfile: UIImageView!   //home picture
@@ -26,9 +27,12 @@ class ViewController: UIViewController , UITableViewDelegate , UITableViewDataSo
 
         roundPicture(profileName: homeProfile)
         roundPicture(profileName: profileImage)
+        
      
         
     }
+    
+    
 //MARK: - tableView Cell
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return arrayData.count
